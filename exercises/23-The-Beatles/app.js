@@ -5,14 +5,12 @@ const sing = () => {
         letra += lib + ", "
         //concatenar          
     }
-
     letra += "words of wisdom, ";
 
      for(i = 1; i <= 5; i++){
         letra += lib + ", "
         //concatenar          
     }
-
     letra += "there will be an answer, ";
     letra += lib;
     return letra;
