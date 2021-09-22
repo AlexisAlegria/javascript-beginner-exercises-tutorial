@@ -5,14 +5,15 @@ const sing = () => {
         letra += lib + ", "
         //concatenar          
     }
-    letra += "words of wisdom, ";
+    letra += "whisper words of wisdom, ";
 
      for(i = 1; i <= 5; i++){
-        letra += lib + ", "
-        //concatenar          
+         letra += lib + ", "
+         //concatenar          
     }
     letra += "there will be an answer, ";
     letra += lib;
     return letra;
 }
 console.log(sing());
+console.log(sing().length);
